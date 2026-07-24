@@ -1,16 +1,19 @@
-# React + Vite
+# Reatc Basics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://www.codingnepalweb.com/wp-content/uploads/2022/12/Top-2010-20Profile-20Card-20Template-20Designs-20in-20HTML-20-amp-20CSS.jpg
 
-Currently, two official plugins are available:
+Objective: Develop a responsive React application displaying user profiles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+    1. Component Creation: Build a reusable UserCard component.
 
-## React Compiler
+    2. Dynamic Content: Ensure the component is dynamic by accepting user data through props.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    3. Layout: Implement a grid layout to display multiple user cards.
 
-## Expanding the ESLint configuration
+    Optional - Best Practice: To improve code readability and scalability, create a JSON data structure for user information and render the user cards by mapping through this data.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technical Requirements:
+
+    Styling: All styling must be done using Tailwind CSS.
+
+    Responsiveness: The layout should be fully responsive across different screen sizes.
