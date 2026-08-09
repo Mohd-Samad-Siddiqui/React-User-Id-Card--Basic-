@@ -6,7 +6,7 @@ function App() {
   return (
     <>
 
-      <div className="grid grid-cols-4 gap-4 bg-blue-200 w-fulL max-[1200px]:grid-cols-3 max-[900px]:grid-cols-2 max-[550px]:grid-cols-1 p-4">
+      <div className="grid grid-cols-4 gap-4 bg-blue-200 w-full max-[1200px]:grid-cols-3 max-[900px]:grid-cols-2 max-[550px]:grid-cols-1 p-4">
 
         {User.map(function (obj, index) {
           return (
